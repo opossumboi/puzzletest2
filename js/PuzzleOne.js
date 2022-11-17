@@ -36,17 +36,17 @@ DIA6.replaceWith(DIA0)
 DIA1.classList.remove('hidden')
 
 
-// PuzzleOne
+// PuzzleOne Answer input
 const CP1 = document.getElementById('P1Congrats');
 let A1 = document.getElementById('Answer1');
 
-// PuzzleTwo
+// PuzzleTwo Answer input
 let A2 = document.getElementById('Answer2');
 
-// PuzzleThree
+// PuzzleThree Answer input
 let A3 = document.getElementById('Answer3');
 
-// PuzzleFour
+// PuzzleFour Answer input
 let A4 = document.getElementById('Answer4');
 
 // REVEALS ALL BUTTONS, FOR DEVELOPERS, COMMENT AFTER COMPLETION
@@ -56,8 +56,9 @@ N1.classList.add('reveal')
 // N4.classList.add('reveal')
 // N5.classList.add('reveal')
 
-
+// Nav button to puzzle 1
 P0Start.addEventListener('click', () => {
+
   PE0.replaceWith(PE1)
   PE2.replaceWith(PE1)
   PE3.replaceWith(PE1)
@@ -67,7 +68,7 @@ P0Start.addEventListener('click', () => {
 
 })
 
-// FIRST NAV BUTTON
+// Nav button to puzzle 1
 N1.addEventListener('click', () => {
 
   PE0.replaceWith(PE1)
@@ -87,7 +88,7 @@ N1.addEventListener('click', () => {
 
 })
 
-// SECOND NAV BUTTON
+// Nav button to puzzle 2
 N2.addEventListener('click', () => {
 
   PE0.replaceWith(PE2)
@@ -108,7 +109,7 @@ N2.addEventListener('click', () => {
 
 })
 
-// THIRD NAV BUTTON
+// Nav button to puzzle 3
 N3.addEventListener('click', () => {
 
   PE0.replaceWith(PE3)
@@ -128,7 +129,7 @@ N3.addEventListener('click', () => {
 
 })
 
-// FOURTH NAV BUTTON
+// Nav button to puzzle 4
 N4.addEventListener('click', () => {
   PE0.replaceWith(PE4)
   PE1.replaceWith(PE4)
@@ -148,7 +149,7 @@ N4.addEventListener('click', () => {
 
 })
 
-// FIFTH NAV BUTTON
+// Nav button to puzzle 5
 N5.addEventListener('click', () => {
   PE0.replaceWith(PE5)
   PE1.replaceWith(PE5)
@@ -194,7 +195,7 @@ const SA4Btn = document.getElementById('SubmitBtn4')
 const SA5Btn = document.getElementById('SubmitBtn5')
 
 
-// PUZZLE 1 BUTTON
+// PUZZLE 1 ANSWER BUTTON
 SA1Btn.addEventListener('click', () => {
 
   if (A1.value == P1A) {
@@ -209,7 +210,7 @@ SA1Btn.addEventListener('click', () => {
 
 })
 
-// PUZZLE 2 BUTTON
+// PUZZLE 2 ANSWER BUTTON
 SA2Btn.addEventListener('click', () => {
 
   if (A2.value == P2A) {
@@ -224,7 +225,7 @@ SA2Btn.addEventListener('click', () => {
 
 })
 
-// PUZZLE 3 BUTTON
+// PUZZLE 3 ANSWER BUTTON
 SA3Btn.addEventListener('click', () => {
 
   if (A3.value == P3A) {
@@ -239,7 +240,7 @@ SA3Btn.addEventListener('click', () => {
 
 })
 
-// PUZZLE 4 BUTTON
+// PUZZLE 4 ANSWER BUTTON
 const Danger1 = document.getElementById('dntclick')
 
 SA4Btn.addEventListener('click', () => {
@@ -259,7 +260,7 @@ SA4Btn.addEventListener('click', () => {
 
 
 
-// reveal answer button
+// Reveal the answer button in puzzle 4
 const realbtn = document.getElementById('RealBtn4')
 
 
@@ -277,6 +278,7 @@ SA5Btn.addEventListener('click', () => {
   console.log("ay it works!")
 
   if (confirm("ARE YOU SURE? KIDNEYS DONT GROW BACK!") == true) {
+
     console.log("You pressed OK!");
 
     DIA0.replaceWith(DIA6)
