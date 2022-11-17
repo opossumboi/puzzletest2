@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/Puzzle1.css" />
+
+    <!-- FONT IMPORT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Opossum Puzzle Game</title>
+  </head>
+
+  <body>
+    <div class="title-element"></div>
+    <div class="sidebar-element">
+      <div class="nav-base">
+        <ul>
+          <a href="index.html" class="nav-base-list" target="_blank">
+            <h2>Navigation</h2>
+          </a>
+          <li>
+            <a href="index.html" class="nav-list-item" target="_blank">
+              <h3>Home</h3>
+            </a>
+          </li>
+          <li>
+            <!-- CURRENTLY DISABLED FOR DEVELOPEMENT -->
+            <!-- <a href="AboutTheGame.html" class="nav-list-item" target="_blank">
+              <h3>About the Game</h3> </a>-->
+          </li>
+          <li>
+            <a
+              href="AboutDevelopers.html"
+              class="nav-list-item"
+              target="_blank"
+            >
+              <h3>About Developers</h3>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Youtube music player in the bottom left corner -->
+      <div class="youtube-player">
+        <h4>To play some relaxing music, click on the player!</h4>
+        <iframe
+          src="https://www.youtube.com/embed/videoseries?list=PLf0I1WiatHFeRCw_Ee2ncMZUbCKO1POFi"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <div class="game-window"></div>
+
+    <script src="/js/PuzzleOne.js"></script>
+  </body>
+</html>
