@@ -299,6 +299,7 @@ reveal_button.addEventListener("click", () => {
 // PUZZLE 4 SUBMIT ANSWER BUTTON
 // On click compares answer from user input element (a4) to (P4A)
 SA4Btn.addEventListener("click", () => {
+
   // If the answer is correct, reveals next puzzle Nav Button
   if (a4.value == P4A) {
 
@@ -319,6 +320,7 @@ SA4Btn.addEventListener("click", () => {
 // if you click yes it will open an Alert asking to confirm
 // clicking no will open a youtube link to an angry opossum
 SA5Btn_Accept.addEventListener("click", () => {
+
   console.log("ay it works!");
 
   // confirming again, will open a youtube link and change DIAX element to DIA6
