@@ -87,6 +87,7 @@ NAV1.classList.add("reveal");
 
 // Nav button to puzzle 1 from the Welcome Screen puzzle
 P0Start.addEventListener("click", () => {
+
   // This will replace all Puzzle elements with Puzzle 1 Element,
   // will work in reverse (eg. p5 to p1)
   PE0.replaceWith(PE1);
@@ -105,10 +106,12 @@ P0Start.addEventListener("click", () => {
   DIA5.replaceWith(DIA1);
   DIA6.replaceWith(DIA1);
   DIA1.classList.remove("hidden");
+
 });
 
 // Nav button to puzzle 1 from navigation menu
 NAV1.addEventListener("click", () => {
+
   // This will replace all Puzzle elements with Puzzle 1 Element,
   // will work in reverse (eg. p5 to p1)
   PE0.replaceWith(PE1);
@@ -127,10 +130,12 @@ NAV1.addEventListener("click", () => {
   DIA5.replaceWith(DIA1);
   DIA6.replaceWith(DIA1);
   DIA1.classList.remove("hidden");
+
 });
 
 // Nav button to puzzle 2 from navigation menu
 NAV2.addEventListener("click", () => {
+
   // This will replace all Puzzle elements with Puzzle 2 Element,
   // will work in reverse (eg. p5 to p1)
   PE0.replaceWith(PE2);
@@ -149,10 +154,12 @@ NAV2.addEventListener("click", () => {
   DIA5.replaceWith(DIA2);
   DIA6.replaceWith(DIA2);
   DIA2.classList.remove("hidden");
+
 });
 
 // Nav button to puzzle 3 from navigation menu
 NAV3.addEventListener("click", () => {
+
   // This will replace all Puzzle elements with Puzzle 3 Element,
   // will work in reverse (eg. p5 to p1)
   PE0.replaceWith(PE3);
@@ -171,10 +178,12 @@ NAV3.addEventListener("click", () => {
   DIA5.replaceWith(DIA3);
   DIA6.replaceWith(DIA3);
   DIA3.classList.remove("hidden");
+
 });
 
 // Nav button to puzzle 4 from navigation menu
 NAV4.addEventListener("click", () => {
+
   // This will replace all Puzzle elements with Puzzle 4 Element,
   // will work in reverse (eg. p5 to p1)
   PE0.replaceWith(PE4);
@@ -193,10 +202,12 @@ NAV4.addEventListener("click", () => {
   DIA5.replaceWith(DIA4);
   DIA6.replaceWith(DIA4);
   DIA4.classList.remove("hidden");
+
 });
 
 // Nav button to puzzle 5 from navigation menu
 NAV5.addEventListener("click", () => {
+
   // This will replace all Puzzle elements with Puzzle 5 Element,
   // will work in reverse (eg. p5 to p1)
   PE0.replaceWith(PE5);
@@ -216,21 +227,26 @@ NAV5.addEventListener("click", () => {
   DIA6.replaceWith(DIA5);
 
   DIA5.classList.remove("hidden");
+
 });
 
 // PUZZLE 1 SUBMIT ANSWER BUTTON
 // On click compares answer from user input element (a1) to (P1A)
 SA1Btn.addEventListener("click", () => {
+
   // If the answer is correct, reveals next puzzle Nav Button
   if (a1.value == P1A) {
+
     console.log("haha its correct!");
     NAV2.classList.add("reveal");
     alert("Check Navigation tab for new puzzle!");
 
     // If the answer is wrong, alerts the user it's wrong
   } else {
+
     console.log("Sorry, try again!");
     alert("I don't think that's the answer");
+
   }
 });
 
@@ -239,14 +255,17 @@ SA1Btn.addEventListener("click", () => {
 SA2Btn.addEventListener("click", () => {
   // If the answer is correct, reveals next puzzle Nav Button
   if (a2.value == P2A) {
+
     console.log("haha its correct!");
     NAV3.classList.add("reveal");
     alert("Check Navigation tab for new puzzle!");
 
     // If the answer is wrong, alerts the user it's wrong
   } else {
+
     console.log("Sorry, try again!");
     alert("I don't think that's the answer");
+
   }
 });
 
@@ -255,6 +274,7 @@ SA2Btn.addEventListener("click", () => {
 SA3Btn.addEventListener("click", () => {
   // If the answer is correct, reveals next puzzle Nav Button
   if (a3.value == P3A) {
+
     console.log("haha its correct!");
     NAV4.classList.add("reveal");
     alert("Check Navigation tab for new puzzle!");
@@ -263,14 +283,17 @@ SA3Btn.addEventListener("click", () => {
   } else {
     console.log("Sorry, try again!");
     alert("I don't think that's the answer");
+
   }
 });
 
 // PUZZLE 4 REVEAL THE PASSWORD BUTTON
 // Clicking the text "button" in the <p> element, will bring up an alert and show the password
 reveal_button.addEventListener("click", () => {
+
   console.log("He clicked it pog!");
   alert("The password is chenga");
+
 });
 
 // PUZZLE 4 SUBMIT ANSWER BUTTON
@@ -278,6 +301,7 @@ reveal_button.addEventListener("click", () => {
 SA4Btn.addEventListener("click", () => {
   // If the answer is correct, reveals next puzzle Nav Button
   if (a4.value == P4A) {
+
     console.log("haha its correct!");
     NAV5.classList.add("reveal");
     Danger1.classList.remove("hidden");
@@ -287,6 +311,7 @@ SA4Btn.addEventListener("click", () => {
   } else {
     console.log("Sorry, try again!");
     alert("I don't think that's the answer");
+
   }
 });
 
@@ -298,6 +323,7 @@ SA5Btn_Accept.addEventListener("click", () => {
 
   // confirming again, will open a youtube link and change DIAX element to DIA6
   if (confirm("ARE YOU SURE? KIDNEYS DONT GROW BACK!") == true) {
+
     console.log("You pressed OK!");
 
     DIA0.replaceWith(DIA6);
@@ -311,12 +337,16 @@ SA5Btn_Accept.addEventListener("click", () => {
 
     // cancelling the confirm opens a youtube link with an angry opossum
   } else {
+
     window.open("https://www.youtube.com/watch?v=iPLurn6MEXM");
+
   }
 });
 
 // If you click no in Puzzle 5, it will open that link!
 SA5Btn_Reject.addEventListener("click", () => {
+
   console.log("Reject Button Works!");
   window.open("https://www.youtube.com/watch?v=iPLurn6MEXM");
+
 });
