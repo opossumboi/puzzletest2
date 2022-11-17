@@ -59,10 +59,9 @@ p {
 
 
 
-#opossumfaxemb {
+#opossum-facts-embedded {
   width: 100%;
-  height: 1000px;
-  margin: 12px;
+  height: auto;
 }
 
 .character-picture {
@@ -143,7 +142,7 @@ a:link, a:visited {
 
 @media screen and (max-height: 900px) {
 
-  .ytplayer {
+  .youtube-player {
     visibility: hidden;
   }
 
@@ -157,7 +156,7 @@ a:link, a:visited {
   justify-content: center;
 }
 
-.ytplayer {
+.youtube-player {
   position: absolute;
   bottom: 10%;
   left: 0;
@@ -245,7 +244,15 @@ input {
   display: inline;
 }
 
-.endgamelinks {
+.endgame-links {
   text-decoration: underline;
   color: royalblue;
+}
+
+#about-devs-element {
+
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 12px;
 }

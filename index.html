@@ -22,7 +22,7 @@
     <div class="title-element">
       <h1>THE OPOSSUM GAME</h1>
     </div>
-    <div class="titleno" id="title-excluded">
+    <div class="title-excluded">
       <div class="sidebar-element">
         <div class="nav-base">
           <ul>
@@ -56,44 +56,44 @@
             <input
               type="button"
               value="Puzzle 1"
-              class="PNavBtn button"
-              id="P1NavBtn"
+              class="button"
+              id="puzzle1-nav-button"
             />
             <br /><br />
             <input
               type="button"
               value="Puzzle 2"
-              class="PNavBtn button hidden"
-              id="P2NavBtn"
+              class="button hidden"
+              id="puzzle2-nav-button"
             />
             <br /><br />
             <input
               type="button"
               value="Puzzle 3"
-              class="PNavBtn button hidden"
-              id="P3NavBtn"
+              class="button hidden"
+              id="puzzle3-nav-button"
             />
             <br /><br />
             <input
               type="button"
               value="Puzzle 4"
-              class="PNavBtn button hidden"
-              id="P4NavBtn"
+              class="button hidden"
+              id="puzzle4-nav-button"
             />
             <br /><br />
             <input
               type="button"
               value="Puzzle 5"
-              class="PNavBtn button hidden"
-              id="P5NavBtn"
+              class="button hidden"
+              id="puzzle5-nav-button"
             />
-            <h3 class="dntclick hidden" id="dntclick">DONT CLICK DANGER</h3>
+            <h3 class="hidden" id="danger-decoy">DONT CLICK DANGER</h3>
             <br /><br />
           </ul>
         </div>
 
         <!-- Youtube music player in the bottom left corner -->
-        <div class="ytplayer">
+        <div class="youtube-player">
           <h4>To play some relaxing music, click on the player!</h4>
           <iframe
             src="https://www.youtube.com/embed/videoseries?list=PLf0I1WiatHFeRCw_Ee2ncMZUbCKO1POFi"
@@ -114,7 +114,7 @@
         </div>
 
         <div class="puzzlebox-element index-format">
-          <div id="P0Element">
+          <div id="puzzle0-element">
             <p>
               Hey hey, my name is Opossum and I bid You good sir/madam a very
               warm welcome to the small puzzle game! It's quite easy. If you
@@ -125,8 +125,8 @@
               <input
                 type="button"
                 value="Puzzle 1"
-                class="PNavBtn button"
-                id="P0-P1NavBtn"
+                class="button"
+                id="p0-p1-navbutton"
               /><br /><br />
 
               Grab some coffee, enjoy the small test game, and if you would like
@@ -139,7 +139,7 @@
           </div>
 
           <!-- PUZZLE ONE ELEMENT -->
-          <div class="hidden" id="PE1">
+          <div class="hidden" id="puzzle1-element">
             <h2>Puzzle One</h2>
 
             <p>
@@ -157,13 +157,13 @@
             <br /><br />
 
             You are a: <input type="text" id="Answer1" /><br />
-            <button id="SubmitBtn1" class="revealButton" type="button">
+            <button id="submit-button-1" class="" type="button">
               Submit Answer
             </button>
           </div>
 
           <!-- PUZZLE TWO ELEMENT -->
-          <div class="hidden" id="PE2">
+          <div class="hidden" id="puzzle2-element">
             <h1>Puzzle 2</h1>
 
             <img src="./img/MathPuzzle2.png" alt="" id="MathProblem2" /> <br />
@@ -188,11 +188,11 @@
             </h2>
 
             Answer? <input type="number" id="Answer2" /> <br />
-            <button id="SubmitBtn2" type="button">Submit Answer</button>
+            <button id="submit-button-2" type="button">Submit Answer</button>
           </div>
 
           <!-- PUZZLE THREE ELEMENT -->
-          <div class="hidden" id="PE3">
+          <div class="hidden" id="puzzle3-element">
             <h1>Puzzle 3</h1>
 
             <div class="JIGSAW">
@@ -224,225 +224,225 @@
             <br />
             <span>
               Answer: <input type="text" id="Answer3" />
-              <button id="SubmitBtn3" type="button">Submit</button></span
+              <button id="submit-button-3" type="button">Submit</button></span
             >
           </div>
 
           <!-- PUZZLE FOUR ELEMENT -->
-          <div class="hidden" id="PE4">
+          <div class="hidden" id="puzzle4-element">
             <h1>Puzzle 4</h1>
             <p>
               Well well, look at you! All the way up to 4! Well anyways, this
               one is real simple, just click on the
-              <a href="#" id="RealBtn4">button.</a> The answer should appear
-              after that! Good luck!
+              <a href="#" id="real-button-4">button.</a> The answer should
+              appear after that! Good luck!
             </p>
             <br />
-            <div class="btnspam">
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
-              <button class="DecoyBtn4">Button</button>
+            <div class="button-spam-element">
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
+              <button class="decoy-button-4">Button</button>
             </div>
             <br />
             Input the Password: <input id="Answer4" />
-            <button type="button" id="SubmitBtn4">Submit</button>
+            <button type="button" id="submit-button-4">Submit</button>
           </div>
 
           <!-- PUZZLE FIVE ELEMENT -->
-          <div class="hidden" id="PE5">
+          <div class="hidden" id="puzzle5-element">
             <h1>Puzzle 5</h1>
             <img id="kidneypic" src="./img/opossum kidneys.png" alt="" />
             <h2>Do you give him your kidneys?</h2>
-            <button class="p5btns" id="SubmitBtn5"><p>YES</p></button>
+            <button class="p5btns" id="submit-button-5"><p>YES</p></button>
             <button class="p5btns" id="dontgiveBtn"><p>NO</p></button>
           </div>
         </div>
@@ -450,7 +450,7 @@
         <div class="dialoguebox-element">
           <div class="background-opacity">
             <!-- Dialogue at the start of the game -->
-            <div id="Dia0" class="">
+            <div id="dialogue-0" class="">
               <h3 class="character-name">Opossum Creature</h3>
               <br />
               <p>What are ye waiting for! Click to start :></p>
@@ -458,7 +458,7 @@
             </div>
 
             <!-- Dialouge at the start of Puzzle 1 -->
-            <div id="Dia1" class="hidden">
+            <div id="dialogue-1" class="hidden">
               <h3 class="character-name">Opossum Creature</h3>
               <br />
               <p>Oh this one looks very simple! Just a small riddle!</p>
@@ -466,7 +466,7 @@
             </div>
 
             <!-- Dialouge at the start of Puzzle 2 -->
-            <div id="Dia2" class="hidden">
+            <div id="dialogue-2" class="hidden">
               <h3 class="character-name">Opossum Creature</h3>
               <br />
               <p>
@@ -479,7 +479,7 @@
             </div>
 
             <!-- Dialouge at the start of Puzzle 3 -->
-            <div id="Dia3" class="hidden">
+            <div id="dialogue-3" class="hidden">
               <h3 class="character-name">Opossum Creature</h3>
               <br />
               <p>
@@ -493,7 +493,7 @@
             </div>
 
             <!-- Dialouge at the start of Puzzle 4 -->
-            <div id="Dia4" class="hidden">
+            <div id="dialogue-4" class="hidden">
               <h3 class="character-name">Opossum Creature</h3>
               <br />
               <p>
@@ -504,7 +504,7 @@
             </div>
 
             <!-- Dialouge at the start of Puzzle 5 -->
-            <div id="Dia5" class="hidden">
+            <div id="dialogue-5" class="hidden">
               <h3 class="character-name">Opossum Creature</h3>
               <br />
               <p>Holy hecc run! He wants our kidneys! D:<</p>
@@ -512,7 +512,7 @@
             </div>
 
             <!-- Dialouge after completion of Puzzle 5 -->
-            <div id="Dia6" class="hidden">
+            <div id="dialogue-6" class="hidden">
               <h3 class="character-name">Opossum Creature</h3>
               <br />
               <p>
@@ -520,19 +520,19 @@
                 some cute opossum links :) <br />
                 <br />
                 <a
-                  class="endgamelinks"
+                  class="endgame-links"
                   href="https://www.youtube.com/watch?v=gkofwx2liHM"
                   target="_blank"
                   >Nom nom </a
                 ><br />
                 <a
-                  class="endgamelinks"
+                  class="endgame-links"
                   href="https://www.youtube.com/watch?v=bRIVTEBaLkA"
                   target="_blank"
                   >Nom nom 2</a
                 ><br />
                 <a
-                  class="endgamelinks"
+                  class="endgame-links"
                   href="https://www.youtube.com/watch?v=fcHRmIYRXvo"
                   target="_blank"
                 >

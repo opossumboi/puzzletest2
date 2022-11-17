@@ -1,31 +1,31 @@
 // TEST COMMENT COMMIT
 // Nav Buttons
-const N1 = document.getElementById('P1NavBtn');
-const N2 = document.getElementById('P2NavBtn');
-const N3 = document.getElementById('P3NavBtn');
-const N4 = document.getElementById('P4NavBtn');
-const N5 = document.getElementById('P5NavBtn');
+const N1 = document.getElementById('puzzle1-nav-button');
+const N2 = document.getElementById('puzzle2-nav-button');
+const N3 = document.getElementById('puzzle3-nav-button');
+const N4 = document.getElementById('puzzle4-nav-button');
+const N5 = document.getElementById('puzzle5-nav-button');
 
 // Puzzle Elements
-const PE1 = document.getElementById('PE1')
-const PE2 = document.getElementById('PE2')
-const PE3 = document.getElementById('PE3')
-const PE4 = document.getElementById('PE4')
-const PE5 = document.getElementById('PE5')
+const PE1 = document.getElementById('puzzle1-element')
+const PE2 = document.getElementById('puzzle2-element')
+const PE3 = document.getElementById('puzzle3-element')
+const PE4 = document.getElementById('puzzle4-element')
+const PE5 = document.getElementById('puzzle5-element')
 
 // Dialogue Elements
-const DIA0 = document.getElementById("Dia0")
-const DIA1 = document.getElementById("Dia1")
-const DIA2 = document.getElementById("Dia2")
-const DIA3 = document.getElementById("Dia3")
-const DIA4 = document.getElementById("Dia4")
-const DIA5 = document.getElementById("Dia5")
-const DIA6 = document.getElementById("Dia6")
+const DIA0 = document.getElementById("dialogue-0")
+const DIA1 = document.getElementById("dialogue-1")
+const DIA2 = document.getElementById("dialogue-2")
+const DIA3 = document.getElementById("dialogue-3")
+const DIA4 = document.getElementById("dialogue-4")
+const DIA5 = document.getElementById("dialogue-5")
+const DIA6 = document.getElementById("dialogue-6")
 
 
 // Welcome Screen!
-const PE0 = document.getElementById('P0Element')
-const P0Start = document.getElementById('P0-P1NavBtn')
+const PE0 = document.getElementById('puzzle0-element')
+const P0Start = document.getElementById('p0-p1-navbutton')
 
 DIA1.replaceWith(DIA0)
 DIA2.replaceWith(DIA0)
@@ -37,7 +37,6 @@ DIA1.classList.remove('hidden')
 
 
 // PuzzleOne Answer input
-const CP1 = document.getElementById('P1Congrats');
 let A1 = document.getElementById('Answer1');
 
 // PuzzleTwo Answer input
@@ -65,6 +64,14 @@ P0Start.addEventListener('click', () => {
   PE4.replaceWith(PE1)
   PE5.replaceWith(PE1)
   PE1.classList.remove('hidden')
+
+  DIA0.replaceWith(DIA1)
+  DIA2.replaceWith(DIA1)
+  DIA3.replaceWith(DIA1)
+  DIA4.replaceWith(DIA1)
+  DIA5.replaceWith(DIA1)
+  DIA6.replaceWith(DIA1)
+  DIA1.classList.remove('hidden')
 
 })
 
@@ -188,11 +195,11 @@ const P4A = "chenga"
 const P5A = ""
 
 // Submit Answer Buttons
-const SA1Btn = document.getElementById('SubmitBtn1')
-const SA2Btn = document.getElementById('SubmitBtn2')
-const SA3Btn = document.getElementById('SubmitBtn3')
-const SA4Btn = document.getElementById('SubmitBtn4')
-const SA5Btn = document.getElementById('SubmitBtn5')
+const SA1Btn = document.getElementById('submit-button-1')
+const SA2Btn = document.getElementById('submit-button-2')
+const SA3Btn = document.getElementById('submit-button-3')
+const SA4Btn = document.getElementById('submit-button-4')
+const SA5Btn = document.getElementById('submit-button-5')
 
 
 // PUZZLE 1 ANSWER BUTTON
@@ -241,7 +248,7 @@ SA3Btn.addEventListener('click', () => {
 })
 
 // PUZZLE 4 ANSWER BUTTON
-const Danger1 = document.getElementById('dntclick')
+const Danger1 = document.getElementById('danger-decoy')
 
 SA4Btn.addEventListener('click', () => {
 
@@ -261,7 +268,7 @@ SA4Btn.addEventListener('click', () => {
 
 
 // Reveal the answer button in puzzle 4
-const realbtn = document.getElementById('RealBtn4')
+const realbtn = document.getElementById('real-button-4')
 
 
 realbtn.addEventListener('click', () => {
